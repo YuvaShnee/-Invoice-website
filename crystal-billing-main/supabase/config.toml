@@ -1,0 +1,13 @@
+project_id = "tovpvboepqfgdivyugdd"
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["https://lovable.dev"]
+jwt_expiry = 3600
+
+[auth.email]
+enable_signup = true
+
+[functions.extract-invoice-ocr]
+verify_jwt = false
